@@ -1,0 +1,206 @@
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: 'Varela Round', sans-serif;
+  box-sizing: border-box;
+}
+
+
+
+
+h1,h2,h3 {
+  margin-top: 0;
+  text-orientation: capitalize;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+
+
+
+
+ul {
+  padding: 5px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: underline;
+  transition: opacity 0.15s ease-in-out;
+  font-weight: 600;
+  color: inherit;
+}
+
+
+
+
+
+
+
+
+.navbar ul {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 1em;
+  color: rgba(2, 53, 108, 1);
+}
+
+.navbar li {
+  list-style-type: none;
+  padding: 1em;
+}
+
+.navbar li:hover {
+  opacity: 0.5;
+}
+
+.BLUEBUTTON {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(2, 53, 108, 1);
+  border-radius: .2em;
+}
+
+.BLUEBUTTON a {
+  text-decoration: none;
+}
+
+.BLUEBUTTON:hover {
+  opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+.FOCALPOINT {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.FOCALPOINT h1,
+p {
+  text-align: center;
+}
+
+.FOCALPOINT h1 {
+  letter-spacing: 0.1rem;
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.FOCALPOINT p {
+  font-size: 1.5rem;
+  width: 39%;
+  margin: 0 auto;
+  font-weight: 200;
+}
+
+.FOCALPOINT iframe {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+.USERINPUT {
+  border-top: 2px solid lightgray;
+  width: 95%;
+  padding: 2em;
+  margin: 0 auto;
+}
+
+.USERINPUT h3 {
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.USERINPUT p {
+  width: 41%;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+.USERINPUT input {
+  border: 2px solid lightgray;
+  border-radius: .2em;
+  margin: .5em;
+  height: 50px;
+  font-size: 16px;
+}
+
+.USERINPUT,
+.signup,
+.name,
+h3 {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+.name input,
+.info input {
+  padding-left: 1em;
+}
+
+.name {
+  flex-direction: row;
+  width: 39%;
+  margin: 0 auto;
+}
+
+.name input {
+  width: 100%;
+}
+
+.info{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 39%;
+}
+
+.submit input {
+  width: 19%;
+  color: rgba(2, 53, 108, 1);
+  font-size: 1rem;
+  border: .2em solid rgba(2, 53, 108, 1);
+}
+
+.submit input:hover {
+  color: rgba(2, 53, 108, 1);
+  font-size: 1rem;
+  border: .2em solid rgba(2, 53, 108, 1);
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
+}
